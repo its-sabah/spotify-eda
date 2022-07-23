@@ -7,6 +7,8 @@ Created on Mon Mar 21 15:07:55 2022
 
 Spotify Project, finding:
     compare the most popular and least popular tracks across Spotify’s metrics
+
+Download data here: https://drive.google.com/file/d/11PW4RD2VnE5qdiQ0eb64LmvUVnOauzhp/view?usp=sharing
     
     reference links:
     https://rstudio-pubs-static.s3.amazonaws.com/594440_b5a14885d559413ab6e57087eddd68e6.html
@@ -222,6 +224,19 @@ class AnalysingTrackData:
         plt.show()
             
 if __name__=="__main__":
-    data = pd.read_csv(r"C:\Users\AD676KL\OneDrive - EY\__Learning\_python\spotify\data\tracks.csv")
+    condition = input("Have you downloaded the data and updated the CSV path? y/n :")
+    if condition == "n":
+        print("Navigate to line 11 of this script to download the \
+              data, update line 240, and then run again.")
+        sys.exit()
+    elif condition == "y":
+        print("Thanks - running script.")
+        pass
+    else:
+        print("Unrecognised value, re-run script")
+        sys.exit()
+
+    
+    data = pd.read_csv(r"C:\myworkspace\data\tracks.csv")
     engine = AnalysingTrackData(data)
     engine.run()
