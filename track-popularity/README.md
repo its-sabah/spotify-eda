@@ -1,5 +1,6 @@
 # Spotify Tracks dataset
 Objective: compare the most popular and least popular tracks across Spotify’s metrics, using modular approach. Not intended for use.
+_Data is avaialable here - https://drive.google.com/file/d/11PW4RD2VnE5qdiQ0eb64LmvUVnOauzhp/view?usp=sharing _
 
 ## Background and Motivation: 
 After spending hours on DataCamp, I wanted to apply my skills without the training wheels. 
@@ -34,6 +35,7 @@ Steps:
   5.  Profit $$
 
 ## Resources
+https://drive.google.com/file/d/11PW4RD2VnE5qdiQ0eb64LmvUVnOauzhp/view?usp=sharing
 https://developer.spotify.com/documentation/web-api/
 https://support.spotify.com/uk/article/data-rights-and-privacy-settings/
 https://support.spotify.com/uk/article/understanding-my-data/
