@@ -26,7 +26,7 @@ One way of building this script application out is to have other modules created
 
 ## How to Run
 Steps:
-  1.	Go to the link below and download the CSV
+  1.	Go to the following link and download the CSV: 
       https://drive.google.com/file/d/11PW4RD2VnE5qdiQ0eb64LmvUVnOauzhp/view?usp=sharing
   2.	In the script, go to the `if __name__=="__main__"` section, and change the CSV path 
   3.  Click run
